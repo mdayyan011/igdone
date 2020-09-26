@@ -1,0 +1,679 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    }
+*{
+  font-family: 'Open Sans', sans-serif;
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+    }
+#loading
+  {
+    width: 100%;
+    height: 100vh;
+    font-family: serif;
+    text-align: center;
+    color:#002244;
+    position: fixed;
+    z-index: 9999;
+    background-color:#fff;
+   }
+   @media only screen and (max-width:768px){
+        .preloadingimage{
+            width: 50%;
+            height: 50%;
+            }
+            }
+   @media only screen and (min-width:768px){
+                 .preloadingimage{
+                     width: 30%;
+                     height: 30%;
+                     }
+                     }
+   .socialiconsconatiner
+   {
+     padding: 0;
+     margin: 0;
+     position: fixed;
+     top:40%;
+     left:0;
+     z-index: 1111;
+    font-size: 30px;
+
+   }
+   .socialiconsconatiner a
+   {
+     display: block;
+     color:#333;
+     text-decoration: none;
+     padding-bottom: 6px;
+   }
+   .socialiconsconatiner a .socialicon
+   {
+     display: inline-block;
+     background-color: #fff;
+     width:50px;
+     height: 50px;
+     text-align: center;
+     border-radius: 25px;
+     box-shadow: 0.1em 0.1em 1em #121212;
+   }
+   .socialiconsconatiner a .socialicon .fa
+    {
+     line-height: 50px;
+     }
+   .socialiconsconatiner a .textsocial
+   {
+     position: relative;
+     display: inline-block;
+     font-size: 14px;
+     background: #fff;
+     box-shadow: 0.1em 0.1em 1em #121212;
+     border-radius: 25px;
+     height: 50px;
+     padding:0 15px;
+     opacity: 0;
+     visibility: hidden;
+     left:10px;
+     transition: left .2s linear;
+     line-height: 40px;
+     top:20%;
+   }
+   .socialiconsconatiner a:hover .textsocial
+   {
+     left: 25px;
+     opacity: 1;
+     visibility:visible;
+   }
+  .socialiconsconatiner a:nth-child(1) .textsocial
+  {
+    color:#1877f2;
+  }
+  .socialiconsconatiner a:nth-child(2) .socialicon .fa
+  {color:#c32aa3;
+  }
+  .socialiconsconatiner a:nth-child(2) .textsocial
+  {
+    color:#c32aa3;
+  }
+  .socialiconsconatiner a:nth-child(3) .socialicon .fa
+  {color:#ff0000;
+  }
+  .socialiconsconatiner a:nth-child(3) .textsocial
+  {
+    color:#ff0000;
+  }
+  .socialiconsconatiner a:nth-child(1) .socialicon .fa
+  {color:#1877f2;
+  }
+  .socialiconsconatiner a:nth-child(4) .textsocial
+  {
+    color:	#00acee;
+  }
+  .socialiconsconatiner a:nth-child(4) .socialicon .fa
+  {color:	#00acee;
+  }
+
+.topbutton{
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 15px;
+  right: 30px;
+  z-index: 1111;}
+
+
+
+
+@media only screen and (max-width:768px){
+    nav{
+      margin-top: 30px;
+      margin-left: 25px;
+      margin-right: 25px;
+      font-size: 22px;
+     }
+   }
+@media only screen and (min-width:768px){
+    nav{
+      margin-top: 10px;
+      margin-left:55px;
+      margin-right: 55px;
+      font-size: 22px;
+
+     }
+   }
+.stick{
+       background:#fff;
+       border-radius: 25px;
+       box-shadow: 0.1em 0.1em 1em #121212;
+        }
+.centralise{
+     text-align: center;
+          }
+.centralise:hover{
+    border-bottom: 3px solid #f7a336;
+}
+
+
+  /* LANDING BG */
+
+
+@media only screen and (min-width:768px)
+      {
+  .containerlanding{
+       padding-top:50px;
+       padding-left: 40px;
+       padding-bottom: 100px;
+       width:100%;
+       height: 100vh;
+       background: #000000;
+
+         }
+  .iglogo{
+     padding-top: 25vh;
+     padding-bottom: 25px;
+     width: 15%;
+     height: 15%;
+     text-align: center;
+    }
+
+    }
+ /* MOBILE */
+ @media only screen and (max-width:768px)
+
+{
+  .iglogo{
+    padding-top: 26vh;
+    padding-bottom: 25px;
+    width:30%;
+    height:30%;
+ }
+ .containerlanding{
+      padding-top:30px;
+      padding-left: 40px;
+      padding-bottom: 100px;
+      width:100%;
+      height: 100vh;
+      background: #000000;
+      fixed
+      background-position:fixed;
+    }
+    .titlelanding1{
+      font-size: 25px;
+    }
+    .titlelanding{
+      color: 	#fff;
+      font-size: 21px;
+     }
+ }
+
+ .titlelanding1{
+ color:#f7A336;
+}
+
+
+.landingcontent{
+  text-align: center;
+  position: relative;
+  z-index: 999;
+}
+@media only screen and (min-width:768px)
+{
+.titlelanding1{
+  font-size: 45px;
+}
+.titlelanding{
+  color: 	#fff;
+  font-size: 35px;
+ }
+}
+
+/* ABOUT */
+@media only screen and (min-width:768px){
+  #about{
+    padding-top: 30px;
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-bottom: 35px;
+    font-size: 25px;
+    color:#fff;
+    width: 100%;
+    background:#fff;
+    background-size: cover;
+  }
+
+}
+@media only screen and (max-width:768px){
+  #about{
+    padding-left:75px;
+    padding-right: 35px;
+    font-size: 25px;
+    color:#fff;
+    width: 100%;
+    background:#fff;
+    background-size: cover;
+  }
+
+}
+
+@media only screen and (max-width:768px){
+  .centerheading{
+    color:#000;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 20px;
+  }
+  .aboutimg{
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+  }
+  .aboutcontent1,.aboutcontent2,.aboutcontent3{
+    color:#000;
+  }
+}
+
+@media only screen and (min-width:768px)
+{
+.centerheading{
+  color:#fff;
+  text-align: center;
+  background: #f7a336;
+  width: 15%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+}
+.aboutcontent1{
+ color:#fff;
+ font-size: 25px;
+ font-family: 'Open Sans', sans-serif;
+ font-weight: 600;
+ background: #f7a336;
+ text-align:center;
+ border-radius: 25px;
+
+}
+.aboutcontent2{
+ color:#fff;
+ font-size: 25px;
+ font-family: 'Open Sans', sans-serif;
+ font-weight: 600;
+ background: #f7a336;
+ text-align:center;
+ border-radius: 25px;
+
+}
+.aboutcontent3{
+ color:#fff;
+ font-size: 25px;
+ font-family: 'Open Sans', sans-serif;
+ font-weight: 600;
+ background: #f7a336;
+ text-align:center;
+ border-radius: 25px;
+ padding: 10px;
+}
+.aboutimg{
+  width: 350px;
+  height: 350px;
+  display: block;
+  margin: 0 auto;
+
+}
+
+}
+
+
+/* interneship */
+#pa {
+  background:#000;
+  background-size: cover;
+  text-align: center;
+  color:#fff;
+  padding-top: 25px;
+  padding-bottom: 45px;
+}
+
+
+@media only screen and (min-width:768px){
+  .internhead{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+      font-size: 45px;
+      padding-bottom: 0;
+      color:#BDDAF7;
+  }
+  .pacontent{
+    padding-left:95px;
+    padding-right: 45px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    text-align: left;
+    color:#BDDAF7;
+  }
+}
+@media only screen and (max-width:768px){
+  .internhead{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+    text-align: center;
+    padding-top:25px;
+    color:#BDDAF7;
+  }
+  .pacontent{
+    padding-left:80px;
+    padding-right: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    text-align: left;
+    color:#BDDAF7;
+  }
+
+}
+
+
+/* EVENTS */
+#events{
+  padding-top: 25px;
+  padding-bottom: 30px;
+  background:#F3C623;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+
+}
+.boxmanage{
+  display: block;
+  align-items: center;
+  margin: 0 auto;
+  width:50%;
+  height: 50%;
+  padding-bottom: 20px;
+}
+
+.headingevents{
+  color:#0f3460;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 45px;
+}
+.headingevents1{
+  color:#0f3460;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 30px;
+}
+.abouttasveer{
+  padding-top: 30px;
+  padding-left: 95px;
+  padding-right: 60px;
+  color:#0f3460;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+
+}
+@media only screen and (max-width:768px)
+{
+  .headingevents{
+    color:#0f3460;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+  }
+  .headingevents1{
+    color:#0f3460;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    padding-left: 80px;
+  }
+  .abouttasveer{
+    padding-top: 10px;
+    padding-left: 80px;
+    padding-right: 20px;
+    color:#0f3460;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+
+  }
+
+}
+.glimpse{
+  text-align: center;
+  color:#0f3460;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+}
+.cent{
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height:auto;
+  box-shadow: 0 8px 8px 0 black, 0 6px 20px 0 black;
+  text-align: center;
+
+}
+.seeall{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+ }
+#gallerychange{
+  background-color: #f39f86;
+  background-image: linear-gradient(315deg, #f39f86 0%, #f9d976 74%);
+
+}
+@media only screen and (max-width:768px)
+{
+  .container{
+    padding-left:60px;
+    padding-top: 60px;
+    padding-right: 60px;
+    width: 20px;
+    height:350px;
+
+  }
+}
+.img1{
+  width: 50%;
+  height: 50%;
+  justify-content: center;
+  text-align: center;
+  margin:0 auto;
+  padding-top: 50px;
+}
+
+.creativesect{
+  background-color: #002244;
+  color:#005086;
+  padding-left: 60px;
+  padding-right: 60px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+}
+.creativehead{
+  padding-top: 50px;
+  color:#FFF192;
+
+}
+.changeall{
+  background-color: #002244;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+
+
+/* TEAM */
+@media only screen and (min-width:768px)
+{
+#team{
+  background: #162447;
+  padding:20px 100px 20px;
+}
+}
+.teamheading{
+  color:#f92e54;
+  padding: 45px 0 45px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 55px;
+}
+@media only screen and (max-width:768px){
+
+  #team{
+    background: #162447;
+
+  }
+  .rounding {
+  display: block;
+  width: 100%;
+  height: auto;
+  box-shadow: 0.1em 0.6em 1em #f92e54;
+  border-radius: 50%;
+  }
+  .teamcontent{
+    padding-left: 70px;
+    padding-bottom: 45px;
+  }
+  .teamheading{
+    color:#f92e54;
+    padding: 45px 0 45px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+  }
+}
+@media only screen and (min-width:768px){
+  .rounding {
+    display: block;
+    width: 100%;
+    height: auto;
+
+    height: 100%;
+    box-shadow: 0.1em 0.6em 1em #f92e54;
+    border-radius: 50%;
+
+  }
+  .teamcontent{
+    padding-left: 70px;
+    padding-bottom: 45px;
+  }
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  backdrop-filter: blur(6px);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.teamcontent:hover .overlay {
+  height: 100%;
+}
+
+.teamtxt{
+  color: #f92e54;
+  background-color:#162447;
+  border-radius: 50px;
+  font-size: 25px;
+  padding:20px 5px 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+.padteam{
+    text-align: center;
+    padding-bottom: 60px;
+}
+.iste{
+  display: block;
+  margin:0 auto;
+  border-radius: 50px;
+}
+
+#contactsection{
+  background:url('contact.png') no-repeat scroll;
+  background-size: cover;
+  color:#fff;
+  padding: 70px 0 75px;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+}
+.boxcontact{
+  position: relative;
+  max-width: 600px;
+  padding:50px;
+  box-shadow: 0 5px 15px rgba(0,0,0,.5);
+  overflow: hidden;
+  color:#fff;
+  display: block;
+  margin:0 auto;
+  backdrop-filter: blur(5px);
+}
+@media only screen and (min-width:768px)
+{
+  .footerlogo{
+    width: 150px;
+    height: 150px;
+
+  }
+}
+@media only screen and (max-width:768px)
+{
+  .footerlogo{
+    width: 150px;
+    height:150px;
+  }
+.boxcontact{
+  padding-left: 50px;
+  top: 10%;
+}
+.footertxt{
+  font-size: 20px;
+}
+
+}
+.socialiconfoot{
+  color:#fff;
+    backdrop-filter: blur(7px);
+    font-size: 35px;
+    padding-right: 15px;
+
+}
